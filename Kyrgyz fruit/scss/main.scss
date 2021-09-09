@@ -1,6 +1,29 @@
+.main {
+  background-image: url("/pics/New-folder/Group\ 8438.svg"),
+    linear-gradient(to right, white, #fff0dc);
+}
+
+.gradient {
+  background: linear-gradient(to right, white, #fff0dc);
+  padding: 10px;
+}
+
+.main-col {
+  position: absolute;
+  right: 40%;
+  z-index: 0;
+  color: #ffefed;
+}
+
+.main-col2 {
+  position: absolute;
+  left: 41%;
+  z-index: 0;
+  color: #e9dedc;
+}
+
 navbar {
   justify-content: space-between;
-  color: #e5e5e5;
 }
 
 .container-fluid {
@@ -94,7 +117,8 @@ span {
 }
 .home-newsletter {
   padding: 80px 0;
-  background: #fae4f7;
+  background: #eaddca;
+  background-image: url("/pics/Group\ 8441.svg");
   border-radius: 2.25em;
 }
 
@@ -146,4 +170,29 @@ home-newsletter .single .btn {
   background-color: white;
   border-radius: 2.25rem;
   line-height: 2.25rem;
+}
+
+.about-title {
+  font-weight: 500;
+  text-align: center;
+  margin: 1.5em;
+}
+
+.about-us {
+  max-width: 1170px;
+  justify-self: center;
+  margin-left: 1.25rem;
+}
+.about-us-icons {
+  max-width: 200px;
+}
+
+.feature {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+footer {
+  margin: 0 auto;
 }
