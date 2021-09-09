@@ -196,3 +196,13 @@ home-newsletter .single .btn {
 footer {
   margin: 0 auto;
 }
+
+@media (max-width: 1457px) {
+  .main-col {
+    display: none;
+  }
+
+  .main-col2 {
+    display: none;
+  }
+}
