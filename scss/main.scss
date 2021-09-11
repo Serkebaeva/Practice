@@ -1,10 +1,22 @@
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: small;
+}
+
 .main {
   background-image: url("../pics/New-folder/Group\ 8438.svg"),
     linear-gradient(to right, white, #fff0dc);
+  background-position: cover;
+  margin: 0;
+  padding: 0;
 }
 
 .gradient {
   background: linear-gradient(to right, white, #fff0dc);
+  background-position: cover;
   padding: 10px;
 }
 
@@ -62,6 +74,10 @@ span {
   border-radius: 2.25rem;
 }
 
+.nav-link:hover {
+  color: #fb9300;
+}
+
 .btn-p {
   font-size: 2.2rem;
   font-weight: 700;
@@ -93,6 +109,19 @@ span {
   text-decoration: none;
   font-weight: 600;
   line-height: 3.25rem;
+}
+
+.btn-third::after {
+  position: absolute;
+  top: -39px;
+  right: -16px;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url(../pics/bee.png);
+  background: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .btn-fourth {
