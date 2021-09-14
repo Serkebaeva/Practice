@@ -1,2 +1,2 @@
-# Hi, there! This is my sandbox, feel free to observe my practices - each per separate branch.
+# Hi, there! This is Kyrgyz Fruit Mark-up.
 https://serkebaeva.github.io/Practice/
